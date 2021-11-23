@@ -59,6 +59,7 @@ namespace Gehaltsberechnung
             this.CmdBerechnen.TabIndex = 2;
             this.CmdBerechnen.Text = "Berechnen";
             this.CmdBerechnen.UseVisualStyleBackColor = true;
+            this.CmdBerechnen.Click += new System.EventHandler(this.CmdBerechnen_Click);
             // 
             // LblAnzeige
             // 
@@ -79,7 +80,6 @@ namespace Gehaltsberechnung
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
